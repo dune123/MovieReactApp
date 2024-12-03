@@ -1,0 +1,85 @@
+*{
+  font-family: sans-serif;
+}
+.container{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.genreBox{
+  display: flex;
+  flex-direction: column;
+  width:60vw;
+  height:max-content;
+  background-color: #C7C8CC;
+  border-radius: 0.5rem;
+  padding-left:1vw ;
+  padding-bottom: 2vh;
+  margin-bottom: 3vh
+}
+
+.genreButtonContainer{
+  display: flex;
+  gap:1vw;
+  flex-wrap: wrap;
+}
+
+.genreButtonContainer button{
+  background-color: #B4B4B8;
+  color:black;
+  border-radius:0.2rem;
+  border:none;
+  padding:1vh;
+  cursor: pointer;
+}
+
+.movieBoxContainer{
+  width:60vw;
+}
+
+.movieBoxContainer table{
+  display: flex;
+  flex-direction: column;
+}
+
+table thead{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #B4B4B8;
+}
+
+thead .title{
+  width:40vw;
+}
+
+thead th{
+  background-color: #C7C8CC;
+  width:10vw;
+}
+
+table tbody{
+  display: flex;
+  flex-direction: column;
+}
+
+tbody tr{
+  display: flex;
+  justify-content: space-between;
+}
+
+tbody tr .itemTitle{
+  width:40vw;
+  display: flex;
+  justify-content: flex-start ;
+}
+
+tbody tr td{
+  width:10vw;
+  display: flex;
+  justify-content: center;
+  border:1px solid #C7C8CC;
+  height:4vh;
+  align-items: center;
+}
